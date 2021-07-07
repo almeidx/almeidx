@@ -1,7 +1,7 @@
 {
   "$schema": "http://json.schemastore.org/package",
   "name": "website",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Almeida's website",
   "author": "almeidx <almeidx@pm.me> (https://almeidx.me)",
   "homepage": "https://almeidx.dev",
@@ -11,9 +11,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint pages --ext .ts,.tsx",
-    "lint:fix": "eslint pages --ext .ts,.tsx --fix",
-    "prettier": "prettier --write **/*.{ts,tsx,js,jsx,json,yml,yaml}"
+    "lint": "eslint --ext .ts,.tsx --cache src",
+    "lint:fix": "eslint --ext .ts,.tsx --fix --cache src",
+    "lint:staged": "lint-staged",
+    "prepare": "husky install",
+    "prettier:check": "prettier --check **/*.{ts,tsx,js,json}",
+    "prettier:fix": "prettier --write **/*.{ts,tsx,js,json}"
   },
   "repository": {
     "type": "git",
@@ -23,25 +26,36 @@
     "url": "https://github.com/almeidx/website/issues"
   },
   "dependencies": {
-    "next": "10.0.3",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-icons": "^4.1.0"
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.12",
-    "@types/react": "^17.0.0",
-    "prettier": "^2.2.1",
-    "typescript": "^4.1.2"
+    "@types/node": "^16.0.0",
+    "@types/react": "^17.0.13",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "autoprefixer": "^10.2.6",
+    "eslint": "^7.30.0",
+    "eslint-config-marine": "^9.0.6",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.0.0",
+    "postcss": "^8.3.5",
+    "prettier": "^2.3.2",
+    "tailwindcss": "^2.2.4",
+    "typescript": "^4.3.5"
   },
-  "prettier": {
-    "printWidth": 120,
-    "useTabs": false,
-    "tabWidth": 2,
-    "singleQuote": true,
-    "quoteProps": "as-needed",
-    "trailingComma": "all",
-    "endOfLine": "lf",
-    "jsxBracketSameLine": true
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "lint-staged": {
+    "*.tsx": "eslint --fix --cache",
+    "*.{ts,tsx,js,json}": "prettier --write"
   }
 }

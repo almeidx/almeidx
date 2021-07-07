@@ -1,4 +1,4 @@
-.next/
-.vercel/
-node_modules/
-.gitignore
+.next
+.vercel
+.yarn
+node_modules
