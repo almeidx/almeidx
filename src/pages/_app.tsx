@@ -7,7 +7,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Almeida | Web Developer</title>
+        <title>Almeida - Web Developer</title>
       </Head>
 
       <Component {...pageProps} />

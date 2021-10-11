@@ -1,5 +1,4 @@
 module.exports = {
-  poweredByHeader: false,
   reactStrictMode: true,
   redirects() {
     return [
