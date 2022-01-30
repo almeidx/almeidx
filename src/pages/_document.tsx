@@ -12,14 +12,13 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
 
-          <meta name="theme-color" content="#00a81a" />
+          <meta name="theme-color" content="#ffffff" />
           <meta name="keywords" content="Almeida, almeidx, web, developer" />
           <meta name="title" content="Almeida" />
           <meta property="og:title" content="Almeida" />
-          <meta name="description" content="Yeet" />
-          <meta property="og:description" content="Yeet" />
+          <meta name="description" content="insert some cool text here" />
+          <meta property="og:description" content="insert some cool text here" />
           <meta property="og:type" content="website" />
-          <meta property="og:description" content="Yeet" />
         </Head>
 
         <body>
