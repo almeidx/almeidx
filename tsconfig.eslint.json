@@ -1,5 +1,8 @@
 {
-  "extends": "./tsconfig.json",
-  "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": []
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"allowJs": true
+	},
+	"include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.cjs", "**/*.mjs"],
+	"exclude": []
 }

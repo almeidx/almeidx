@@ -1,13 +1,13 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
-  @apply font-sans;
+	@apply font-sans;
 }
 
 body {
-  @apply min-h-screen from-black to-gray-800 bg-gradient-to-b text-white;
+	@apply min-h-screen from-black to-gray-800 bg-gradient-to-b text-white;
 }

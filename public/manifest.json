@@ -1,11 +1,11 @@
 {
-  "$schema": "http://json.schemastore.org/web-manifest",
-  "short_name": "Almeida",
-  "name": "Almeida",
-  "theme_color": "#00a81a",
-  "start_url": ".",
-  "display": "minimal-ui",
-  "lang": "en",
-  "background_color": "#1e3a8a",
-  "icons": []
+	"$schema": "http://json.schemastore.org/web-manifest",
+	"short_name": "Almeida",
+	"name": "Almeida",
+	"theme_color": "#00a81a",
+	"start_url": ".",
+	"display": "minimal-ui",
+	"lang": "en",
+	"background_color": "#1e3a8a",
+	"icons": []
 }
