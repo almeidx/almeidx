@@ -35,5 +35,5 @@
 		"*.tsx": "eslint --fix",
 		"*.{ts,tsx,js,json}": "prettier --write"
 	},
-	"packageManager": "yarn@3.2.3"
+	"packageManager": "yarn@3.2.4"
 }
