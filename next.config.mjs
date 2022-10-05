@@ -3,7 +3,14 @@
 /**
  * @type {import('next').NextConfig}
  */
-const nextConfig = {
+export default {
+	eslint: {
+		ignoreDuringBuilds: true,
+	},
+	experimental: {
+		fallbackNodePolyfills: false,
+	},
+	swcMinify: true,
 	reactStrictMode: true,
 	redirects() {
 		return [
@@ -12,13 +19,6 @@ const nextConfig = {
 				permanent: true,
 				source: "/bot",
 			},
-			{
-				destination: "https://pepe-is.life",
-				permanent: true,
-				source: "/emoji",
-			},
 		];
 	},
 };
-
-export default nextConfig;
