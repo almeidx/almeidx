@@ -5,20 +5,18 @@ export default class MyDocument extends Document {
 		return (
 			<Html lang="en">
 				<Head>
-					<link rel="manifest" href="/manifest.json" />
-					<link rel="shortcut icon" href="/favicon.ico" />
+					<link href="/manifest.json" rel="manifest" />
+					<link href="/favicon.ico" rel="shortcut icon" />
 
-					<link rel="preconnect" href="https://fonts.googleapis.com" />
-					<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-					<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+					<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
 
-					<meta name="theme-color" content="#ffffff" />
-					<meta name="keywords" content="Almeida, almeidx, web, developer" />
-					<meta name="title" content="Almeida" />
-					<meta property="og:title" content="Almeida" />
-					<meta name="description" content="insert some cool text here" />
-					<meta property="og:description" content="insert some cool text here" />
-					<meta property="og:type" content="website" />
+					<meta content="#ffffff" name="theme-color" />
+					<meta content="Almeida, almeidx, web, developer" name="keywords" />
+					<meta content="Almeida" name="title" />
+					<meta content="Almeida" property="og:title" />
+					<meta content="insert some cool text here" name="description" />
+					<meta content="insert some cool text here" property="og:description" />
+					<meta content="website" property="og:type" />
 				</Head>
 
 				<body>
