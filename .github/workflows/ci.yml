@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   lint:
-    name: Lint
+    name: Tests
     runs-on: ubuntu-latest
 
     steps:
@@ -14,13 +14,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           cache: yarn
-          cache-dependency-path: yarn.lock
           node-version: 16
 
       - name: Install dependencies
         run: yarn --immutable
 
-      - name: Run ESLint
+      - name: Lint
         run: yarn lint
 
       - name: Build
