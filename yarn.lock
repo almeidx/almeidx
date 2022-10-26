@@ -541,10 +541,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^16.11.68":
-  version: 16.11.68
-  resolution: "@types/node@npm:16.11.68"
-  checksum: a35293b6b8867e10ab9e10b6cd5f0e4224a86256d5ef102581dcb9f79f35f255ad87443e8584ddf8dce1229ee28885c58187e41822cf8d1e82495e7897c47c3f
+"@types/node@npm:^16.18.1":
+  version: 16.18.1
+  resolution: "@types/node@npm:16.18.1"
+  checksum: 0980426defd01b30e46a40725dc40b2d05603a389287804ba325449b0996b3c45e46b9d90468593c399478b131910bcaee39bd6813f7e44452a47de509c17fdd
   languageName: node
   linkType: hard
 
@@ -5396,7 +5396,7 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "website@workspace:."
   dependencies:
-    "@types/node": ^16.11.68
+    "@types/node": ^16.18.1
     "@types/react": ^18.0.21
     autoprefixer: ^10.4.12
     eslint: ^8.25.0
