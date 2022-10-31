@@ -5,13 +5,14 @@
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
-		"lint": "prettier --check . && eslint src --ext ts,tsx",
-		"format": "prettier --write . && eslint src --ext ts,tsx --fix",
+		"lint": "prettier --check . && eslint app --ext ts,tsx",
+		"format": "prettier --write . && eslint app --ext ts,tsx --fix",
 		"postinstall": "husky install .github/husky",
 		"start": "next start",
 		"update": "yarn upgrade-interactive"
 	},
 	"dependencies": {
+		"@next/font": "^13.0.0",
 		"next": "^13.0.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
