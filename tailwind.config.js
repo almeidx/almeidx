@@ -1,9 +1,6 @@
 module.exports = {
-	content: ["./src/pages/**/*.tsx", "./src/components/**/*.tsx"],
+	content: ["./app/**/*.tsx", "./styles/**/*.css"],
 	theme: {
-		fontFamily: {
-			sans: ["Roboto", "sans-serif"],
-		},
 		extend: {},
 	},
 	plugins: [],

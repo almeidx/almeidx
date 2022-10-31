@@ -23,8 +23,13 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
-		"target": "ES5"
+		"target": "ES5",
+		"plugins": [
+			{
+				"name": "next"
+			}
+		]
 	},
 	"exclude": ["node_modules"],
-	"include": ["**/*.ts", "**/*.tsx", "next-env.d.ts"]
+	"include": ["**/*.ts", "**/*.tsx", "next-env.d.ts", ".next/types/**/*.ts"]
 }

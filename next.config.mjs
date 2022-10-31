@@ -8,9 +8,9 @@ export default {
 		ignoreDuringBuilds: true,
 	},
 	experimental: {
+		appDir: true,
 		fallbackNodePolyfills: false,
 	},
-	reactStrictMode: true,
 	redirects() {
 		return [
 			{
