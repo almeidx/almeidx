@@ -1,13 +1,11 @@
 import "../styles/global.css";
 import { Roboto } from "@next/font/google";
 
-const roboto_300 = Roboto({ subsets: ["latin"], weight: "300" });
-const roboto_400 = Roboto({ subsets: ["latin"], weight: "400" });
-const roboto_500 = Roboto({ subsets: ["latin"], weight: "500" });
+const roboto = Roboto({ subsets: ["latin"], weight: ["300", "400", "500"] });
 
 export default function RootLayout({ children }: { children: any }) {
 	return (
-		<html className={`${roboto_300.className} ${roboto_400.className} ${roboto_500.className}`} lang="en">
+		<html className={roboto.className} lang="en">
 			<head>
 				<link href="/manifest.json" rel="manifest" />
 				<link href="/favicon.ico" rel="shortcut icon" />
