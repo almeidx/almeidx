@@ -27,7 +27,7 @@
 		"@types/react": "^18.0.25",
 		"autoprefixer": "^10.4.13",
 		"eslint": "^8.28.0",
-		"eslint-config-neon": "^0.1.39",
+		"eslint-config-neon": "^0.1.40",
 		"eslint-plugin-tailwindcss": "^3.7.0",
 		"husky": "^8.0.2",
 		"lint-staged": "^13.0.3",
