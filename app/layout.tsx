@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: any }) {
 				<title>Almeida Portfolio</title>
 			</head>
 
-			<body className="min-h-screen from-black to-gray-800 bg-gradient-to-b text-white grid h-screen place-items-center">
+			<body className="grid h-screen min-h-screen place-items-center bg-gradient-to-b from-black to-gray-800 text-white">
 				{children}
 			</body>
 		</html>
