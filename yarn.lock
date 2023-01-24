@@ -153,10 +153,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/font@npm:^13.1.4":
-  version: 13.1.4
-  resolution: "@next/font@npm:13.1.4"
-  checksum: 3c79793a241fa2074e7644b72cddcf88adc02ee086e27b4bcf2fea59fcad09d09f6fca5b8cf680e0985bb35e2c873ae996495ae9453ecee6c4037d2476c68cc1
+"@next/font@npm:^13.1.5":
+  version: 13.1.5
+  resolution: "@next/font@npm:13.1.5"
+  checksum: f3e8425ca77e1c6f08153c0fe91ee6bac37b67487bb5c6c69624bd3c1901184a3db4bd9281abf4bce6dbc4d42bd744bdc160dd82660de92b1b7e743f6e120295
   languageName: node
   linkType: hard
 
@@ -4769,7 +4769,7 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "website@workspace:."
   dependencies:
-    "@next/font": ^13.1.4
+    "@next/font": ^13.1.5
     "@types/node": ^18.11.18
     "@types/react": ^18.0.27
     autoprefixer: ^10.4.13
