@@ -24,11 +24,7 @@
 		"sourceMap": true,
 		"strict": true,
 		"target": "ES5",
-		"plugins": [
-			{
-				"name": "next"
-			}
-		]
+		"plugins": [{ "name": "next" }]
 	},
 	"exclude": ["node_modules"],
 	"include": ["**/*.ts", "**/*.tsx", "next-env.d.ts", ".next/types/**/*.ts"]
