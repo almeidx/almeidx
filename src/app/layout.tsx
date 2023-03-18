@@ -1,4 +1,6 @@
 import "../styles/global.css";
+
+import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import type { ReactNode } from "react";
 
@@ -8,7 +10,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 	return (
 		<html className={roboto.className} lang="en">
 			<head>
-				<link href="/manifest.json" rel="manifest" />
 				<link href="/favicon.ico" rel="shortcut icon" />
 			</head>
 
@@ -19,7 +20,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 	);
 }
 
-export const metadata = {
+export const metadata: Metadata = {
 	title: "Almeida",
 	description: "insert some cool text here",
 	keywords: ["Almeida", "almeidx", "web", "developer"],
