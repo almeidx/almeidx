@@ -22,8 +22,9 @@
 		"sourceMap": true,
 		"strict": true,
 		"target": "ES5",
-		"verbatimModuleSyntax": true,
-		"plugins": [{ "name": "next" }]
+		"verbatimModuleSyntax": false,
+		"plugins": [{ "name": "next" }],
+		"isolatedModules": true
 	},
 	"exclude": ["node_modules"],
 	"include": ["**/*.ts", "**/*.tsx", "next-env.d.ts", ".next/types/**/*.ts"]
