@@ -13,8 +13,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 				<link href="/favicon.ico" rel="shortcut icon" />
 			</head>
 
-			<body className="grid h-screen min-h-screen place-items-center bg-gradient-to-b from-black to-gray-800 text-white">
-				{children}
+			<body>
+				{/* The extra div is needed due to next.js' next-route-announcer, which gets appended to the body */}
+				<div className="grid h-screen min-h-screen place-items-center bg-gradient-to-b from-black to-gray-800 text-white">
+					{children}
+				</div>
 			</body>
 		</html>
 	);
