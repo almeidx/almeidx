@@ -14,9 +14,9 @@ export default {
 	redirects() {
 		return [
 			{
-				destination: "https://pepemanager.com",
+				destination: "https://lurkr.gg",
 				permanent: true,
-				source: "/bot",
+				source: "/lurkr",
 			},
 		];
 	},
