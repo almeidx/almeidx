@@ -1,6 +1,30 @@
 import Link from "next/link";
+import type { IconType } from "react-icons";
 import { MdAlternateEmail } from "react-icons/md";
 import { SiGithub, SiDiscord, SiSteam } from "react-icons/si";
+
+const socials = [
+	{
+		ariaLabel: "Contact by email",
+		href: "mailto:root@almeidx.dev",
+		Icon: MdAlternateEmail,
+	},
+	{
+		ariaLabel: "View GitHub profile",
+		href: "https://github.com/almeidx",
+		Icon: SiGithub,
+	},
+	{
+		ariaLabel: "View Discord profile",
+		href: "https://discord.com/users/385132696135008259",
+		Icon: SiDiscord,
+	},
+	{
+		ariaLabel: "View Steam profile",
+		href: "https://steamcommunity.com/id/almeidx_/",
+		Icon: SiSteam,
+	},
+] as const satisfies readonly { Icon: IconType; ariaLabel: string; href: string }[];
 
 export default function Page() {
 	return (
@@ -11,21 +35,11 @@ export default function Page() {
 			</header>
 
 			<div className="mt-4 flex gap-3 text-lg text-gray-300">
-				<Link className="duration-150 hover:text-gray-400" href="mailto:root@almeidx.dev">
-					<MdAlternateEmail size={30} />
-				</Link>
-
-				<Link className="duration-150 hover:text-gray-400" href="https://github.com/almeidx">
-					<SiGithub size={30} />
-				</Link>
-
-				<Link className="duration-150 hover:text-gray-400" href="https://discord.com/users/385132696135008259">
-					<SiDiscord size={30} />
-				</Link>
-
-				<Link className="duration-150 hover:text-gray-400" href="https://steamcommunity.com/id/almeidx_/">
-					<SiSteam size={30} />
-				</Link>
+				{socials.map(({ ariaLabel, href, Icon }) => (
+					<Link aria-label={ariaLabel} className="transition-colors hover:text-gray-400" href={href} key={href}>
+						<Icon size={30} />
+					</Link>
+				))}
 			</div>
 		</div>
 	);
