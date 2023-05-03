@@ -1,5 +1,4 @@
 {
-	"root": true,
 	"extends": [
 		"neon/common",
 		"neon/browser",
@@ -13,6 +12,7 @@
 	"parserOptions": {
 		"project": "./tsconfig.eslint.json"
 	},
+	"root": true,
 	"rules": {
 		"@typescript-eslint/consistent-type-definitions": [2, "interface"],
 		"default-case": 0,
