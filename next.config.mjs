@@ -8,7 +8,6 @@ export default {
 		ignoreDuringBuilds: true,
 	},
 	experimental: {
-		appDir: true,
 		fallbackNodePolyfills: false,
 	},
 	redirects() {
