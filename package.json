@@ -41,7 +41,7 @@
 		"@types/node": "^18.16.8",
 		"@types/react": "^18.2.8",
 		"autoprefixer": "^10.4.14",
-		"eslint": "^8.41.0",
+		"eslint": "^8.42.0",
 		"eslint-config-neon": "^0.1.47",
 		"eslint-plugin-tailwindcss": "^3.12.1",
 		"husky": "^8.0.3",
