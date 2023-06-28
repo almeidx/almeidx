@@ -86,7 +86,7 @@
 		"eslint-config-neon": "^0.1.47",
 		"eslint-plugin-tailwindcss": "^3.13.0",
 		"husky": "^8.0.3",
-		"lint-staged": "^13.2.2",
+		"lint-staged": "^13.2.3",
 		"postcss": "^8.4.24",
 		"prettier": "^2.8.8",
 		"tailwindcss": "^3.3.2",
