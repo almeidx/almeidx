@@ -2,7 +2,7 @@ import "../styles/global.css";
 
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import type { ReactNode } from "react";
+import type { PropsWithChildren } from "react";
 
 const roboto = Roboto({
 	weight: ["300", "400", "500"],
@@ -11,7 +11,7 @@ const roboto = Roboto({
 	variable: "--font-roboto",
 });
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }: PropsWithChildren) {
 	return (
 		<html className={`${roboto.variable} font-sans`} lang="en">
 			<body>
