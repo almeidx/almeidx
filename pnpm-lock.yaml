@@ -38,8 +38,8 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: ^20.5.3
-    version: 20.5.3
+    specifier: ^20.5.4
+    version: 20.5.4
   '@types/react':
     specifier: ^18.2.21
     version: 18.2.21
@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^8.47.0
     version: 8.47.0
   eslint-config-neon:
-    specifier: ^0.1.54
-    version: 0.1.54(eslint@8.47.0)(typescript@5.1.6)
+    specifier: ^0.1.56
+    version: 0.1.56(eslint@8.47.0)(typescript@5.1.6)
   eslint-plugin-tailwindcss:
     specifier: ^3.13.0
     version: 3.13.0(tailwindcss@3.3.3)
@@ -112,8 +112,8 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@babel/runtime@7.22.10:
-    resolution: {integrity: sha512-21t/fkKLMZI4pqP2wlmsQAWnYW1PDyKyyUV4vCi+B25ydmdaYTKXPwCj0BzSUnZf4seIiYvSA3jcZ3gdsMFkLQ==}
+  /@babel/runtime@7.22.11:
+    resolution: {integrity: sha512-ee7jVNlWN09+KftVOu9n7S8gQzD/Z6hN/I8VBRXW4P1+Xe7kJGXMwu8vds4aGIMHZnNbdpSWCfZZtinytpcAvA==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.0
@@ -358,8 +358,8 @@ packages:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
     dev: true
 
-  /@types/node@20.5.3:
-    resolution: {integrity: sha512-ITI7rbWczR8a/S6qjAW7DMqxqFMjjTo61qZVWJ1ubPvbIQsL5D/TvwjYEalM8Kthpe3hTzOGrF2TGbAu2uyqeA==}
+  /@types/node@20.5.4:
+    resolution: {integrity: sha512-Y9vbIAoM31djQZrPYjpTLo0XlaSwOIsrlfE3LpulZeRblttsLQRFRlBAppW0LOxyT3ALj2M5vU1ucQQayQH3jA==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -1194,8 +1194,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-neon@0.1.54(eslint@8.47.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-X/0BC85UpwpUR5rktziXEEmN4wmusBL4pagd+Al6+7/lNBOBk6Q4wTNfTbW63IAOmy1gOB5NNc/sFSRKLpHhPA==}
+  /eslint-config-neon@0.1.56(eslint@8.47.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-5aHP/jRnhbIwesl7y0JoRyoIDh/dad+hK8ZHT9wtYW8oEKZN7s3F+cCApxPO6oc6HWv85g22bnuDVKmN4r5xYA==}
     engines: {node: '>=16.0.0'}
     dependencies:
       '@angular-eslint/eslint-plugin': /@almeidx/empty@1.0.1
@@ -1369,7 +1369,7 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
     dependencies:
-      '@babel/runtime': 7.22.10
+      '@babel/runtime': 7.22.11
       aria-query: 5.3.0
       array-includes: 3.1.6
       array.prototype.flatmap: 1.3.1

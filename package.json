@@ -77,11 +77,11 @@
 		"tslib": "^2.6.2"
 	},
 	"devDependencies": {
-		"@types/node": "^20.5.3",
+		"@types/node": "^20.5.4",
 		"@types/react": "^18.2.21",
 		"autoprefixer": "^10.4.15",
 		"eslint": "^8.47.0",
-		"eslint-config-neon": "^0.1.54",
+		"eslint-config-neon": "^0.1.56",
 		"eslint-plugin-tailwindcss": "^3.13.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^14.0.1",
