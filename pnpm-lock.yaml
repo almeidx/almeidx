@@ -1269,7 +1269,7 @@ packages:
       eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.5.0)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.0)(eslint@8.49.0)
       eslint-plugin-import: /eslint-plugin-i@2.28.1(@typescript-eslint/parser@6.5.0)(eslint-import-resolver-typescript@3.6.0)(eslint@8.49.0)
       fast-glob: 3.3.1
-      get-tsconfig: 4.7.0
+      get-tsconfig: 4.7.1
       is-core-module: 2.13.0
       is-glob: 4.0.3
     transitivePeerDependencies:
@@ -1773,12 +1773,6 @@ packages:
     dependencies:
       call-bind: 1.0.2
       get-intrinsic: 1.2.1
-    dev: true
-
-  /get-tsconfig@4.7.0:
-    resolution: {integrity: sha512-pmjiZ7xtB8URYm74PlGJozDNyhvsVLUcpBa8DZBG3bWHwaHa9bPiRpiSfovw+fjhwONSCWKRyk+JQHEGZmMrzw==}
-    dependencies:
-      resolve-pkg-maps: 1.0.0
     dev: true
 
   /get-tsconfig@4.7.1:
