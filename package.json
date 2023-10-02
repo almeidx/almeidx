@@ -77,8 +77,8 @@
 		"tslib": "^2.6.2"
 	},
 	"devDependencies": {
-		"@types/node": "^20.7.1",
-		"@types/react": "^18.2.23",
+		"@types/node": "^20.8.0",
+		"@types/react": "^18.2.24",
 		"autoprefixer": "^10.4.16",
 		"eslint": "^8.50.0",
 		"eslint-config-neon": "^0.1.56",
