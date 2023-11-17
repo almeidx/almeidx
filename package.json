@@ -70,14 +70,14 @@
 		"vue-eslint-parser": "npm:@almeidx/empty"
 	},
 	"dependencies": {
-		"next": "^14.0.2",
+		"next": "^14.0.3",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-icons": "^4.12.0",
 		"tslib": "^2.6.2"
 	},
 	"devDependencies": {
-		"@types/node": "^20.9.0",
+		"@types/node": "^20.9.1",
 		"@types/react": "^18.2.37",
 		"autoprefixer": "^10.4.16",
 		"eslint": "^8.53.0",
