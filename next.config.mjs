@@ -7,9 +7,6 @@ export default {
 	eslint: {
 		ignoreDuringBuilds: true,
 	},
-	experimental: {
-		fallbackNodePolyfills: false,
-	},
 	redirects() {
 		return [
 			{

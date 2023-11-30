@@ -1,5 +1,5 @@
 {
-	"typescript.tsdk": "node_modules/typescript/lib",
 	"typescript.enablePromptUseWorkspaceTsdk": true,
-	"cSpell.words": ["tailwindcss"]
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"typescript.tsdk": "node_modules/typescript/lib"
 }
