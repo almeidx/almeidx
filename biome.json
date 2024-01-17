@@ -1,11 +1,7 @@
 {
 	"$schema": "https://biomejs.dev/schemas/1.5.2/schema.json",
 	"files": {
-		"ignore": [
-			"**/.next",
-			"**/node_modules",
-			"next-env.d.ts"
-		]
+		"ignore": ["**/.next", "**/node_modules", "next-env.d.ts"]
 	},
 	"formatter": {
 		"lineWidth": 120
