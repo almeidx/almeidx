@@ -19,7 +19,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.5.3",
-		"@types/node": "^20.11.17",
+		"@types/node": "^20.11.19",
 		"@types/react": "^18.2.55",
 		"autoprefixer": "^10.4.17",
 		"postcss": "^8.4.35",
