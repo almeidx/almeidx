@@ -17,7 +17,7 @@
 		"noImplicitOverride": true,
 		"noUnusedLocals": true,
 		"paths": {
-			"@/*": ["./src/*"]
+			"@/*": ["./app/*"]
 		},
 		"plugins": [
 			{
