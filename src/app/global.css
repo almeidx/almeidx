@@ -5,7 +5,3 @@
 body {
 	text-rendering: optimizeLegibility;
 }
-
-img {
-	@apply select-none;
-}

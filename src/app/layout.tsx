@@ -14,11 +14,10 @@ const roboto = Roboto({
 export default function RootLayout({ children }: PropsWithChildren) {
 	return (
 		<html lang="en">
-			<body className={`${roboto.variable} scroll-smooth font-sans antialiased`}>
-				{/* The extra div is needed due to next.js' next-route-announcer, which gets appended to the body */}
-				<div className="grid min-h-screen place-items-center bg-gradient-to-b from-black to-gray-800 text-white">
-					{children}
-				</div>
+			<body
+				className={`${roboto.variable} scroll-smooth font-sans antialiased grid min-h-screen place-items-center bg-gradient-to-b from-black to-gray-800 text-white`}
+			>
+				{children}
 			</body>
 		</html>
 	);
