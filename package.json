@@ -16,13 +16,13 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.8.3",
-		"@tailwindcss/postcss": "4.0.0-alpha.16",
+		"@tailwindcss/postcss": "4.0.0-alpha.17",
 		"@types/node": "^20.14.9",
 		"@types/react": "^18.3.3",
 		"autoprefixer": "^10.4.19",
 		"babel-plugin-react-compiler": "0.0.0-experimental-938cd9a-20240601",
 		"postcss": "^8.4.39",
-		"tailwindcss": "4.0.0-alpha.16",
+		"tailwindcss": "4.0.0-alpha.17",
 		"typescript": "5.5.3"
 	},
 	"packageManager": "pnpm@9.3.0+sha512.ee7b93e0c2bd11409c6424f92b866f31d3ea1bef5fbe47d3c7500cdc3c9668833d2e55681ad66df5b640c61fa9dc25d546efa54d76d7f8bf54b13614ac293631",
