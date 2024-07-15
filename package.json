@@ -10,8 +10,8 @@
 	},
 	"dependencies": {
 		"next": "15.0.0-rc.0",
-		"react": "19.0.0-rc-99da76f23a-20240606",
-		"react-dom": "19.0.0-rc-99da76f23a-20240606",
+		"react": "19.0.0-rc.0",
+		"react-dom": "19.0.0-rc.0",
 		"react-icons": "^5.2.1"
 	},
 	"devDependencies": {
