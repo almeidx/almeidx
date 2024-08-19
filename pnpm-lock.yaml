@@ -28,8 +28,8 @@ importers:
         specifier: 4.0.0-alpha.19
         version: 4.0.0-alpha.19(postcss@8.4.41)
       '@types/node':
-        specifier: ^22.3.0
-        version: 22.3.0
+        specifier: ^22.4.1
+        version: 22.4.1
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
@@ -375,8 +375,8 @@ packages:
   '@types/istanbul-reports@1.1.2':
     resolution: {integrity: sha512-P/W9yOX/3oPZSpaYOCQzGqgCQRXn0FFO/V8bWrCQs+wLmvVVxk6CRBXALEvNs9OHIatlnlFokfhuDo2ug01ciw==}
 
-  '@types/node@22.3.0':
-    resolution: {integrity: sha512-nrWpWVaDZuaVc5X84xJ0vNrLvomM205oQyLsRt7OHNZbSHslcWsvgFR7O7hire2ZonjLrWBbedmotmIlJDVd6g==}
+  '@types/node@22.4.1':
+    resolution: {integrity: sha512-1tbpb9325+gPnKK0dMm+/LMriX0vKxf6RnB0SZUqfyVkQ4fMgUSySqhxE/y8Jvs4NyF1yHzTfG9KlnkIODxPKg==}
 
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
@@ -734,8 +734,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@6.18.2:
-    resolution: {integrity: sha512-5ruQbENj95yDYJNS3TvcaxPMshV7aizdv/hWYjGIKoANWKjhWNBsr2YEuYZKodQulB1b8l7ILOuDQep3afowQQ==}
+  undici-types@6.19.6:
+    resolution: {integrity: sha512-e/vggGopEfTKSvj4ihnOLTsqhrKRN3LeO6qSN/GxohhuRv8qH9bNQ4B8W7e/vFL+0XTnmHPB4/kegunZGA4Org==}
 
   update-browserslist-db@1.1.0:
     resolution: {integrity: sha512-EdRAaAyk2cUE1wOf2DkEhzxqOQvFOoRJFNS6NeyJ01Gp2beMRpBAINjM2iDXE3KCuKhwnvHIQCJm6ThL2Z+HzQ==}
@@ -989,9 +989,9 @@ snapshots:
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-lib-report': 3.0.3
 
-  '@types/node@22.3.0':
+  '@types/node@22.4.1':
     dependencies:
-      undici-types: 6.18.2
+      undici-types: 6.19.6
 
   '@types/prop-types@15.7.12': {}
 
@@ -1325,7 +1325,7 @@ snapshots:
 
   typescript@5.5.4: {}
 
-  undici-types@6.18.2: {}
+  undici-types@6.19.6: {}
 
   update-browserslist-db@1.1.0(browserslist@4.23.3):
     dependencies:
