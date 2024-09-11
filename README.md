@@ -7,7 +7,7 @@ Hi 👋, I'm a Software Engineer based in <img width="20" align="center" src="ht
 
 🎓 I hold a Bachelor's degree in Computer Science and am currently pursuing a major in the same field.
 
-Feel free to follow me on these platforms to get more information about me:
+Feel free to connect with me on these platforms:
 
 <a href="https://discord.gg/XUQAnkq2vy" target="_blank"><img align="center" alt="Discord" src="https://img.shields.io/badge/-Discord-5865f2?style=flat&logo=discord&logoColor=white" /></a> <a href="https://steamcommunity.com/id/almeidx_" target="_blank"><img align="center" alt="Steam" src="https://img.shields.io/badge/-Steam-171a21?style=flat&logo=steam&logoColor=white" /></a>
 
