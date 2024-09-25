@@ -17,8 +17,8 @@
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.2",
 		"@tailwindcss/postcss": "4.0.0-alpha.23",
-		"@types/node": "^22.6.1",
-		"@types/react": "^18.3.8",
+		"@types/node": "^22.7.0",
+		"@types/react": "^18.3.9",
 		"autoprefixer": "^10.4.20",
 		"babel-plugin-react-compiler": "0.0.0-experimental-938cd9a-20240601",
 		"postcss": "^8.4.47",
