@@ -20,7 +20,7 @@
 		"@types/node": "^22.7.6",
 		"@types/react": "^18.3.11",
 		"autoprefixer": "^10.4.20",
-		"babel-plugin-react-compiler": "0.0.0-experimental-6067d4e-20240925",
+		"babel-plugin-react-compiler": "0.0.0-experimental-7449567-20240905",
 		"postcss": "^8.4.47",
 		"tailwindcss": "4.0.0-alpha.25",
 		"typescript": "5.6.3"
