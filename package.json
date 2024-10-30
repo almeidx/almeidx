@@ -9,7 +9,7 @@
 		"start": "next start"
 	},
 	"dependencies": {
-		"next": "15.0.0-rc.0",
+		"next": "15.0.2",
 		"react": "19.0.0-rc.0",
 		"react-dom": "19.0.0-rc.0",
 		"react-icons": "^5.3.0"
@@ -17,8 +17,8 @@
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
 		"@tailwindcss/postcss": "4.0.0-alpha.28",
-		"@types/node": "^22.7.7",
-		"@types/react": "^18.3.11",
+		"@types/node": "^22.8.4",
+		"@types/react": "^18.3.12",
 		"autoprefixer": "^10.4.20",
 		"babel-plugin-react-compiler": "0.0.0-experimental-7449567-20240905",
 		"postcss": "^8.4.47",
