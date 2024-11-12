@@ -35,13 +35,13 @@ importers:
         version: 18.3.12
       autoprefixer:
         specifier: ^10.4.20
-        version: 10.4.20(postcss@8.4.48)
+        version: 10.4.20(postcss@8.4.49)
       babel-plugin-react-compiler:
         specifier: 0.0.0-experimental-7449567-20240905
         version: 0.0.0-experimental-7449567-20240905
       postcss:
-        specifier: ^8.4.48
-        version: 8.4.48
+        specifier: ^8.4.49
+        version: 8.4.49
       tailwindcss:
         specifier: 4.0.0-alpha.31
         version: 4.0.0-alpha.31
@@ -635,8 +635,8 @@ packages:
     resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  postcss@8.4.48:
-    resolution: {integrity: sha512-GCRK8F6+Dl7xYniR5a4FYbpBzU8XnZVeowqsQFYdcXuSbChgiks7qybSkbvnaeqv0G0B+dd9/jJgH8kkLDQeEA==}
+  postcss@8.4.49:
+    resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==}
     engines: {node: ^10 || ^12 || >=14}
 
   pretty-format@24.9.0:
@@ -979,7 +979,7 @@ snapshots:
       '@tailwindcss/node': 4.0.0-alpha.31
       '@tailwindcss/oxide': 4.0.0-alpha.31
       lightningcss: 1.28.1
-      postcss: 8.4.48
+      postcss: 8.4.49
       tailwindcss: 4.0.0-alpha.31
 
   '@types/istanbul-lib-coverage@2.0.6': {}
@@ -1020,14 +1020,14 @@ snapshots:
     dependencies:
       color-convert: 2.0.1
 
-  autoprefixer@10.4.20(postcss@8.4.48):
+  autoprefixer@10.4.20(postcss@8.4.49):
     dependencies:
       browserslist: 4.23.3
       caniuse-lite: 1.0.30001649
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.1
-      postcss: 8.4.48
+      postcss: 8.4.49
       postcss-value-parser: 4.2.0
 
   babel-plugin-react-compiler@0.0.0-experimental-7449567-20240905:
@@ -1217,7 +1217,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  postcss@8.4.48:
+  postcss@8.4.49:
     dependencies:
       nanoid: 3.3.7
       picocolors: 1.1.1
