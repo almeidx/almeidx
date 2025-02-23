@@ -1,5 +1,7 @@
-.next
-.vercel
-.vscode
-node_modules
+.next/
+.vercel/
+.vscode/
+node_modules/
+*.env*
+!.env.*.example
 next-env.d.ts

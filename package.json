@@ -1,32 +1,39 @@
 {
 	"private": true,
 	"scripts": {
-		"build": "next build",
 		"dev": "next dev --turbo",
-		"fmt": "pnpm format",
-		"format": "biome check --write --unsafe",
-		"lint": "biome check",
-		"start": "next start"
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"fmt": "biome check --write"
 	},
 	"dependencies": {
-		"next": "^15.1.0",
+		"@radix-ui/react-select": "^2.1.6",
+		"@radix-ui/react-slot": "^1.1.2",
+		"class-variance-authority": "^0.7.1",
+		"clsx": "^2.1.1",
+		"lucide-react": "^0.476.0",
+		"motion": "^12.4.7",
+		"next": "^15.1.7",
+		"next-themes": "^0.4.4",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
-		"react-icons": "^5.5.0"
+		"tailwind-merge": "^3.0.2",
+		"tailwindcss-animate": "^1.0.7"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
-		"@tailwindcss/postcss": "^4.0.8",
+		"@tailwindcss/postcss": "^4.0.9",
 		"@types/node": "^22.13.5",
 		"@types/react": "^19.0.10",
-		"autoprefixer": "^10.4.20",
-		"babel-plugin-react-compiler": "^19.0.0-beta-714736e-20250131",
+		"@types/react-dom": "^19.0.4",
+		"babel-plugin-react-compiler": "^19.0.0-beta-e1e972c-20250221",
 		"postcss": "^8.5.3",
-		"tailwindcss": "^4.0.8",
-		"typescript": "5.7.3"
+		"tailwindcss": "^4.0.9",
+		"typescript": "~5.7.3"
 	},
-	"packageManager": "pnpm@9.15.0",
-	"engines": {
-		"node": ">=22.12.0"
+	"packageManager": "pnpm@10.5.1",
+	"pnpm": {
+		"onlyBuiltDependencies": ["@biomejs/biome", "sharp"]
 	}
 }

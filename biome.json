@@ -1,7 +1,7 @@
 {
-	"$schema": "https://biomejs.dev/schemas/1.8.1/schema.json",
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
 	"files": {
-		"ignore": ["**/.next", "**/node_modules", "next-env.d.ts"]
+		"ignoreUnknown": true
 	},
 	"formatter": {
 		"lineWidth": 120
@@ -30,10 +30,18 @@
 				"noConstEnum": "off",
 				"noExplicitAny": "off",
 				"noMisrefactoredShorthandAssign": "error"
+			},
+			"nursery": {
+				"useSortedClasses": "warn"
 			}
 		}
 	},
 	"organizeImports": {
 		"enabled": true
+	},
+	"vcs": {
+		"enabled": true,
+		"useIgnoreFile": true,
+		"clientKind": "git"
 	}
 }
