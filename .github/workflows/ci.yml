@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   lint:
-    name: Tests
+    name: Lint
     runs-on: ubuntu-latest
 
     steps:
@@ -21,7 +21,4 @@ jobs:
         run: pnpm i --frozen-lockfile
 
       - name: Lint
-        run: pnpm lint
-
-      - name: Build
-        run: pnpm build
+        run: pnpm biome ci --reporter=github
