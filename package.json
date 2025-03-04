@@ -13,7 +13,7 @@
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
 		"lucide-react": "^0.477.0",
-		"motion": "^12.4.7",
+		"motion": "^12.4.10",
 		"next": "^15.1.7",
 		"next-themes": "^0.4.4",
 		"react": "^19.0.0",
@@ -24,7 +24,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
 		"@tailwindcss/postcss": "^4.0.9",
-		"@types/node": "^22.13.8",
+		"@types/node": "^22.13.9",
 		"@types/react": "^19.0.10",
 		"@types/react-dom": "^19.0.4",
 		"babel-plugin-react-compiler": "^19.0.0-beta-40c6c23-20250301",
