@@ -1,22 +1,40 @@
 "use client";
 
-import { Button } from "@/components/ui/button.tsx";
-import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
+import { LucideMoon } from "./icons/moon.tsx";
+import { LucideSun } from "./icons/sun.tsx";
 
 export function ThemeToggle() {
 	const { theme, setTheme } = useTheme();
+	const [mounted, setMounted] = useState(false);
+
+	useEffect(() => {
+		setMounted(true);
+	}, []);
+
+	if (!mounted) {
+		return (
+			<button
+				className="flex size-9 items-center justify-center rounded-md border border-[var(--border)] bg-transparent"
+				aria-label="Toggle theme"
+				type="button"
+			>
+				<span className="sr-only">Toggle theme</span>
+				<LucideMoon className="size-4" />
+			</button>
+		);
+	}
 
 	return (
-		<Button
-			className="cursor-pointer"
-			variant="outline"
-			size="icon"
+		<button
 			onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+			className="flex size-9 items-center justify-center rounded-md border border-border bg-transparent transition-colors hover:bg-muted"
+			aria-label="Toggle theme"
+			type="button"
 		>
-			<Sun className="dark:-rotate-90 h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:scale-0" />
-			<Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
 			<span className="sr-only">Toggle theme</span>
-		</Button>
+			{theme === "dark" ? <LucideSun className="size-4" /> : <LucideMoon className="size-4" />}
+		</button>
 	);
 }

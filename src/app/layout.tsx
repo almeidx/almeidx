@@ -3,6 +3,7 @@ import "@/app/globals.css";
 import { Providers } from "@/app/providers.tsx";
 import { Navbar } from "@/components/navbar.tsx";
 import type { PropsWithChildren } from "react";
+import { unstable_ViewTransition as ViewTransition } from "react";
 
 export const metadata = {
 	title: "Almeida - Portfolio",
@@ -14,10 +15,10 @@ export default async function RootLayout({ children }: PropsWithChildren) {
 		<html lang="en" suppressHydrationWarning>
 			<body className="antialiased">
 				<Providers>
-					<div className="container mx-auto flex h-full min-h-screen flex-col bg-background px-4 text-foreground">
+					<div className="mx-auto my-8 flex h-full min-h-screen max-w-prose flex-col bg-background px-4 text-foreground">
 						<Navbar />
 
-						{children}
+						<ViewTransition name="crossfade">{children}</ViewTransition>
 					</div>
 				</Providers>
 			</body>
