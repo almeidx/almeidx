@@ -1,7 +1,9 @@
 .next/
+.open-next/
 .vercel/
 .vscode/
 node_modules/
 *.env*
 !.env.*.example
+cloudflare-env.d.ts
 next-env.d.ts
