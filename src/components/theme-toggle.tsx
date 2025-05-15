@@ -16,7 +16,7 @@ export function ThemeToggle() {
 	if (!mounted) {
 		return (
 			<button
-				className="flex size-9 items-center justify-center rounded-md border border-[var(--border)] bg-transparent"
+				className="flex size-9 items-center justify-center rounded-md border border-border bg-transparent"
 				aria-label="Toggle theme"
 				type="button"
 			>
