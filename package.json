@@ -16,13 +16,13 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
-		"@tailwindcss/postcss": "^4.1.7",
-		"@types/node": "^22.15.21",
-		"@types/react": "^19.1.5",
+		"@tailwindcss/postcss": "^4.1.8",
+		"@types/node": "^22.15.24",
+		"@types/react": "^19.1.6",
 		"@types/react-dom": "^19.1.5",
 		"babel-plugin-react-compiler": "^19.1.0-rc.2",
-		"postcss": "^8.5.3",
-		"tailwindcss": "^4.1.7",
+		"postcss": "^8.5.4",
+		"tailwindcss": "^4.1.8",
 		"typescript": "~5.8.3"
 	},
 	"packageManager": "pnpm@10.11.0",
