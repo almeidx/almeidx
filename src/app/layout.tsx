@@ -15,7 +15,7 @@ export default async function RootLayout({ children }: PropsWithChildren) {
 		<html lang="en" suppressHydrationWarning>
 			<body className="antialiased">
 				<Providers>
-					<div className="mx-auto my-8 flex h-full min-h-screen max-w-prose flex-col bg-background px-4 text-foreground">
+					<div className="mx-auto flex h-full min-h-screen max-w-prose flex-col bg-background px-4 py-8 text-foreground">
 						<Navbar />
 
 						<ViewTransition name="crossfade">{children}</ViewTransition>
