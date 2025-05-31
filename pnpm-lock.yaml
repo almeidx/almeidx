@@ -31,8 +31,8 @@ importers:
         specifier: ^4.1.8
         version: 4.1.8
       '@types/node':
-        specifier: ^22.15.28
-        version: 22.15.28
+        specifier: ^22.15.29
+        version: 22.15.29
       '@types/react':
         specifier: ^19.1.6
         version: 19.1.6
@@ -413,8 +413,8 @@ packages:
   '@tailwindcss/postcss@4.1.8':
     resolution: {integrity: sha512-vB/vlf7rIky+w94aWMw34bWW1ka6g6C3xIOdICKX2GC0VcLtL6fhlLiafF0DVIwa9V6EHz8kbWMkS2s2QvvNlw==}
 
-  '@types/node@22.15.28':
-    resolution: {integrity: sha512-I0okKVDmyKR281I0UIFV7EWAWRnR0gkuSKob5wVcByyyhr7Px/slhkQapcYX4u00ekzNWaS1gznKZnuzxwo4pw==}
+  '@types/node@22.15.29':
+    resolution: {integrity: sha512-LNdjOkUDlU1RZb8e1kOIUpN1qQUlzGkEtbVNo53vbrwDg5om6oduhm4SiUaPW5ASTXhAiP0jInWG8Qx9fVlOeQ==}
 
   '@types/react-dom@19.1.5':
     resolution: {integrity: sha512-CMCjrWucUBZvohgZxkjd6S9h0nZxXjzus6yDfUb+xLxYM7VvjKNH1tQrE9GWLql1XoOP4/Ds3bwFqShHUYraGg==}
@@ -938,7 +938,7 @@ snapshots:
       postcss: 8.5.4
       tailwindcss: 4.1.8
 
-  '@types/node@22.15.28':
+  '@types/node@22.15.29':
     dependencies:
       undici-types: 6.21.0
 
