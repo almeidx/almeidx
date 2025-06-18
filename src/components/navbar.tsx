@@ -1,9 +1,9 @@
 "use client";
 
-import { ThemeToggle } from "@/components/theme-toggle.tsx";
 import clsx from "clsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { ThemeToggle } from "@/components/theme-toggle.tsx";
 
 export function Navbar() {
 	const pathname = usePathname();
@@ -18,25 +18,25 @@ export function Navbar() {
 
 			<nav className="flex gap-2">
 				<Link
-					href="/"
 					className={clsx(
 						"cursor-pointer hover:text-muted-foreground",
 						pathname === "/"
 							? "text-foreground hover:text-muted-foreground"
 							: "text-muted-foreground hover:text-foreground",
 					)}
+					href="/"
 				>
 					about
 				</Link>
 
 				<Link
-					href="/projects"
 					className={clsx(
 						"cursor-pointer",
 						pathname === "/projects"
 							? "text-foreground hover:text-muted-foreground"
 							: "text-muted-foreground hover:text-foreground",
 					)}
+					href="/projects"
 				>
 					projects
 				</Link>

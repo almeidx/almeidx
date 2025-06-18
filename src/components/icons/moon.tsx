@@ -24,16 +24,16 @@ import type { SVGProps } from "react";
 export function LucideMoon(props: SVGProps<SVGSVGElement>) {
 	return (
 		<svg
-			xmlns="http://www.w3.org/2000/svg"
-			width={24}
-			height={24}
-			viewBox="0 0 24 24"
+			className="lucide lucide-moon-icon lucide-moon"
 			fill="none"
+			height={24}
 			stroke="currentColor"
-			strokeWidth={2}
 			strokeLinecap="round"
 			strokeLinejoin="round"
-			className="lucide lucide-moon-icon lucide-moon"
+			strokeWidth={2}
+			viewBox="0 0 24 24"
+			width={24}
+			xmlns="http://www.w3.org/2000/svg"
 			{...props}
 		>
 			<path d="M12 3a6 6 0 009 9 9 9 0 11-9-9z" />

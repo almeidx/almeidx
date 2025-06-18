@@ -1,11 +1,12 @@
 {
+	"name": "almeidx",
 	"private": true,
 	"scripts": {
-		"dev": "next dev --turbo",
 		"build": "next build",
-		"start": "next start",
+		"dev": "next dev --turbo",
+		"fmt": "biome check --write",
 		"lint": "biome check",
-		"fmt": "biome check --write"
+		"start": "next start"
 	},
 	"dependencies": {
 		"clsx": "^2.1.1",
@@ -15,7 +16,7 @@
 		"react-dom": "^19.1.0"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.9.4",
+		"@biomejs/biome": "^2.0.0",
 		"@tailwindcss/postcss": "^4.1.10",
 		"@types/node": "^22.15.32",
 		"@types/react": "^19.1.8",
@@ -27,6 +28,10 @@
 	},
 	"packageManager": "pnpm@10.12.1",
 	"pnpm": {
-		"onlyBuiltDependencies": ["@biomejs/biome", "@tailwindcss/oxide", "sharp"]
+		"onlyBuiltDependencies": [
+			"@biomejs/biome",
+			"@tailwindcss/oxide",
+			"sharp"
+		]
 	}
 }

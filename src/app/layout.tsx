@@ -1,13 +1,13 @@
 import "@/app/globals.css";
 
-import { Providers } from "@/app/providers.tsx";
-import { Navbar } from "@/components/navbar.tsx";
 import type { PropsWithChildren } from "react";
 import { unstable_ViewTransition as ViewTransition } from "react";
+import { Providers } from "@/app/providers.tsx";
+import { Navbar } from "@/components/navbar.tsx";
 
 export const metadata = {
-	title: "Almeida - Portfolio",
 	description: "Computer Science graduate and open source contributor",
+	title: "Almeida - Portfolio",
 };
 
 export default async function RootLayout({ children }: PropsWithChildren) {
