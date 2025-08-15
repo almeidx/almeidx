@@ -12,7 +12,8 @@
 		"enabled": true
 	},
 	"files": {
-		"ignoreUnknown": true
+		"ignoreUnknown": true,
+		"includes": [".", "!src/app/globals.css"]
 	},
 	"formatter": {
 		"lineWidth": 120
