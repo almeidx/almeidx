@@ -21,7 +21,7 @@
 		"@types/node": "^22.18.0",
 		"@types/react": "^19.1.12",
 		"@types/react-dom": "^19.1.9",
-		"babel-plugin-react-compiler": "^19.1.0-rc.2",
+		"babel-plugin-react-compiler": "^19.1.0-rc.3",
 		"postcss": "^8.5.6",
 		"tailwindcss": "^4.1.12",
 		"typescript": "~5.9.2"
