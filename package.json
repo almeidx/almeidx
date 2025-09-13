@@ -18,15 +18,15 @@
 	"devDependencies": {
 		"@biomejs/biome": "^2.2.4",
 		"@tailwindcss/postcss": "^4.1.13",
-		"@types/node": "^22.18.1",
-		"@types/react": "^19.1.12",
+		"@types/node": "^22.18.3",
+		"@types/react": "^19.1.13",
 		"@types/react-dom": "^19.1.9",
 		"babel-plugin-react-compiler": "^19.1.0-rc.3",
 		"postcss": "^8.5.6",
 		"tailwindcss": "^4.1.13",
 		"typescript": "~5.9.2"
 	},
-	"packageManager": "pnpm@10.15.1",
+	"packageManager": "pnpm@10.16.1",
 	"pnpm": {
 		"onlyBuiltDependencies": [
 			"@biomejs/biome",
