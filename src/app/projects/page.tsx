@@ -2,20 +2,19 @@ import { ExternalLink } from "@/components/external-link.tsx";
 
 const projects = [
 	{
-		description:
-			"Lurkr Discord bot owner/developer. Automated leveling system, boosted user engagement. No paywalled features.",
+		description: "Owner and developer of the leveling bot with no paywalls",
 		github: "https://github.com/almeidx/lurkr-website",
 		title: "Lurkr",
 		website: "https://lurkr.gg",
 	},
 	{
-		description: "Active contributor and member, top Discord API library (JavaScript/TypeScript).",
+		description: "Contributor to the leading Discord bot library for JavaScript/TypeScript",
 		github: "https://github.com/discordjs/discord.js",
 		title: "Discord.js",
 		website: "https://discord.js.org",
 	},
 	{
-		description: "One of the maintainers, Discord API TypeScript types. Ensures accuracy and type safety.",
+		description: "Maintainer of TypeScript definitions for the Discord API",
 		github: "https://github.com/discordjs/discord-api-types",
 		title: "Discord API Types",
 		website: "https://discord-api-types.dev",
