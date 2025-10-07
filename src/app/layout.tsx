@@ -1,7 +1,7 @@
 import "@/app/globals.css";
 
 import type { PropsWithChildren } from "react";
-import { unstable_ViewTransition as ViewTransition } from "react";
+import { ViewTransition } from "react";
 import { Providers } from "@/app/providers.tsx";
 import { Navbar } from "@/components/navbar.tsx";
 

@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 export default {
 	experimental: {
-		reactCompiler: true,
 		viewTransition: true,
 	},
+	reactCompiler: true,
 } satisfies NextConfig;
