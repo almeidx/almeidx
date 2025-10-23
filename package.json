@@ -3,28 +3,28 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"build": "next build",
-		"dev": "next dev --turbo",
+		"build": "next build --experimental-next-config-strip-types",
+		"dev": "next dev --experimental-next-config-strip-types",
 		"fmt": "biome check --write",
 		"lint": "biome check",
-		"start": "next start"
+		"start": "next start --experimental-next-config-strip-types"
 	},
 	"dependencies": {
 		"clsx": "^2.1.1",
-		"next": "^15.6.0-canary.57",
+		"next": "^16.0.0",
 		"next-themes": "^0.4.6",
 		"react": "^19.2.0",
 		"react-dom": "^19.2.0"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.2.7",
-		"@tailwindcss/postcss": "^4.1.15",
+		"@tailwindcss/postcss": "^4.1.16",
 		"@types/node": "^24.9.1",
 		"@types/react": "^19.2.2",
 		"@types/react-dom": "^19.2.2",
-		"babel-plugin-react-compiler": "^19.1.0-rc.3",
+		"babel-plugin-react-compiler": "^1.0.0",
 		"postcss": "^8.5.6",
-		"tailwindcss": "^4.1.15",
+		"tailwindcss": "^4.1.16",
 		"typescript": "~5.9.3"
 	},
 	"packageManager": "pnpm@10.19.0",
