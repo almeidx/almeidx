@@ -4,12 +4,15 @@
 	"commitMessagePrefix": "deps:",
 	"extends": ["config:recommended"],
 	"lockFileMaintenance": {
+		"automerge": true,
 		"enabled": true,
 		"schedule": ["* 5-9 * * SUN"]
 	},
 	"minimumReleaseAge": "1 day",
 	"packageRules": [
 		{
+			"automerge": true,
+			"automergeType": "pr",
 			"groupName": "patch/minor dependencies",
 			"groupSlug": "all-non-major",
 			"matchUpdateTypes": ["patch", "minor"],
