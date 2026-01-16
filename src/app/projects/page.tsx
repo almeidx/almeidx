@@ -34,6 +34,12 @@ const otherProjects = [
 		title: "REPL",
 		website: "https://repl.almeidx.dev",
 	},
+	{
+		description: "A client-side tool for parsing, editing, and converting PHP serialized data",
+		github: "https://github.com/almeidx/serialize",
+		title: "Serialize",
+		website: "https://serialize.almeidx.dev",
+	},
 ] as const;
 
 function ProjectCard({
