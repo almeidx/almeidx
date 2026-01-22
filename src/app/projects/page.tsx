@@ -23,6 +23,18 @@ const featuredProjects = [
 
 const otherProjects = [
 	{
+		description: "A Discord bot that automatically synchronizes bans between multiple servers",
+		github: "https://github.com/almeidx/discord-ban-sync",
+		title: "Discord Ban Sync",
+		website: "https://github.com/almeidx/discord-ban-sync",
+	},
+	{
+		description: "A native GUI application for managing Node.js versions",
+		github: "https://github.com/almeidx/versi",
+		title: "Versi",
+		website: "https://github.com/almeidx/versi",
+	},
+	{
 		description: "Compare versions of npm packages and WordPress plugins with a visual diff viewer",
 		github: "https://github.com/almeidx/diff",
 		title: "Diff",
