@@ -29,6 +29,12 @@ const otherProjects = [
 		website: "https://github.com/almeidx/discord-ban-sync",
 	},
 	{
+		description: "A native GUI application for managing Node.js versions",
+		github: "https://github.com/almeidx/versi",
+		title: "Versi",
+		website: "https://github.com/almeidx/versi",
+	},
+	{
 		description: "Compare versions of npm packages and WordPress plugins with a visual diff viewer",
 		github: "https://github.com/almeidx/diff",
 		title: "Diff",
@@ -45,12 +51,6 @@ const otherProjects = [
 		github: "https://github.com/almeidx/serialize",
 		title: "Serialize",
 		website: "https://serialize.almeidx.dev",
-	},
-	{
-		description: "A native GUI application for fnm (Fast Node Manager)",
-		github: "https://github.com/almeidx/versi",
-		title: "Versi",
-		website: "https://github.com/almeidx/versi",
 	},
 ] as const;
 
