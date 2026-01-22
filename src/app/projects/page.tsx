@@ -23,6 +23,12 @@ const featuredProjects = [
 
 const otherProjects = [
 	{
+		description: "A Discord bot that automatically synchronizes bans between multiple servers",
+		github: "https://github.com/almeidx/discord-ban-sync",
+		title: "Discord Ban Sync",
+		website: "https://github.com/almeidx/discord-ban-sync",
+	},
+	{
 		description: "Compare versions of npm packages and WordPress plugins with a visual diff viewer",
 		github: "https://github.com/almeidx/diff",
 		title: "Diff",
@@ -39,12 +45,6 @@ const otherProjects = [
 		github: "https://github.com/almeidx/serialize",
 		title: "Serialize",
 		website: "https://serialize.almeidx.dev",
-	},
-	{
-		description: "A Discord bot that automatically synchronizes bans between multiple servers",
-		github: "https://github.com/almeidx/discord-ban-sync",
-		title: "Discord Ban Sync",
-		website: "https://github.com/almeidx/discord-ban-sync",
 	},
 	{
 		description: "A native GUI application for fnm (Fast Node Manager)",
