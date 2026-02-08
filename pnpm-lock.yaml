@@ -2014,8 +2014,8 @@ packages:
     resolution: {integrity: sha512-mIcis6w+JiQf3P7t7mg/35GKB4T1FQsBOtMIvuKw4YErj5RjtbhcTd5/I30fmkmGMwvI0WlzSNN+27K0QCMkAw==}
     engines: {node: '>=20'}
 
-  jackspeak@4.2.2:
-    resolution: {integrity: sha512-Pw96p+CC0M9pOS1ZiqG8S43N3xKGMvzbavJu4Sx4P7dznw55Fxg3U0h0hEUGo0g3agCV8MZEKCTJTacpZLFjzQ==}
+  jackspeak@4.2.3:
+    resolution: {integrity: sha512-ykkVRwrYvFm1nb2AJfKKYPr0emF6IiXDYUaFx4Zn9ZuIH7MrzEZ3sD5RlqGXNRpHtvUHJyOnCEFxOlNDtGo7wg==}
     engines: {node: 20 || >=22}
 
   jiti@2.6.1:
@@ -5140,7 +5140,7 @@ snapshots:
   glob@12.0.0:
     dependencies:
       foreground-child: 3.3.1
-      jackspeak: 4.2.2
+      jackspeak: 4.2.3
       minimatch: 10.1.2
       minipass: 7.1.2
       package-json-from-dist: 1.0.1
@@ -5203,7 +5203,7 @@ snapshots:
 
   isexe@3.1.2: {}
 
-  jackspeak@4.2.2:
+  jackspeak@4.2.3:
     dependencies:
       '@isaacs/cliui': 9.0.0
 
