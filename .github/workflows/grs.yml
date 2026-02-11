@@ -18,6 +18,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
+        with:
+          # PAT is required to push to the protected main branch
+          token: ${{ secrets.PAT }}
 
       - name: Create profile directory
         run: mkdir -p profile
