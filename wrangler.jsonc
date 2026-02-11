@@ -1,12 +1,9 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"assets": {
-		"binding": "ASSETS",
-		"directory": ".open-next/assets"
+		"directory": "dist"
 	},
 	"compatibility_date": "2025-10-04",
-	"compatibility_flags": ["nodejs_compat"],
-	"main": ".open-next/worker.js",
 	"name": "almeidx",
 	"observability": {
 		"logs": {

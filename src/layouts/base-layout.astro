@@ -1,0 +1,56 @@
+---
+import { ClientRouter } from "astro:transitions";
+import Navbar from "@/components/navbar.astro";
+import "@/styles/globals.css";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Computer Science graduate and open source contributor" />
+		<title>Almeida - Portfolio</title>
+		<link rel="icon" href="/icon.jpg" />
+		<ClientRouter />
+		<script is:inline>
+			(function () {
+				function applyTheme() {
+					var theme = localStorage.getItem("theme");
+					var isDark = theme === "dark" || (!theme && window.matchMedia("(prefers-color-scheme: dark)").matches);
+					document.documentElement.classList.toggle("dark", isDark);
+				}
+				applyTheme();
+				document.addEventListener("astro:after-swap", applyTheme);
+			})();
+		</script>
+	</head>
+	<body class="antialiased">
+		<div class="mx-auto flex h-full min-h-screen max-w-prose flex-col bg-background px-4 py-8 text-foreground">
+			<Navbar />
+
+			<div transition:name="crossfade" transition:animate="none">
+				<slot />
+			</div>
+		</div>
+	</body>
+	<script>
+		const PAGE_ORDER: Record<string, number> = { "/": 0, "/projects": 1 };
+
+		function pageIndex(path: string) {
+			return PAGE_ORDER[path.replace(/\/+$/, "") || "/"] ?? 0;
+		}
+
+		let pendingDirection = "1";
+
+		document.addEventListener("astro:before-preparation", (event) => {
+			const from = pageIndex(window.location.pathname);
+			const to = pageIndex(new URL(event.to).pathname);
+			pendingDirection = to > from ? "1" : "-1";
+			document.documentElement.style.setProperty("--slide-direction", pendingDirection);
+		});
+
+		document.addEventListener("astro:before-swap", (event) => {
+			event.newDocument.documentElement.style.setProperty("--slide-direction", pendingDirection);
+		});
+	</script>
+</html>

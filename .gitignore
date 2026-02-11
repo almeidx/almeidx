@@ -1,8 +1,8 @@
-.next/
-.open-next/
+dist/
+.astro/
+.claude/
 .vercel/
 .vscode/
 node_modules/
 *.env*
 !.env.*.example
-next-env.d.ts

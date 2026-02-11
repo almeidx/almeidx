@@ -3,7 +3,6 @@
 	"assignees": ["almeidx"],
 	"commitMessagePrefix": "deps:",
 	"extends": ["config:recommended"],
-	"ignoreDeps": ["next"],
 	"lockFileMaintenance": {
 		"automerge": true,
 		"enabled": true,

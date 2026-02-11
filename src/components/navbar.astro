@@ -1,0 +1,39 @@
+---
+import ThemeToggle from "@/components/theme-toggle.astro";
+
+const pathname = Astro.url.pathname;
+---
+
+<header class="flex flex-col gap-1 py-8">
+	<header class="flex items-center justify-between py-4">
+		<h1 class="font-bold text-4xl">Almeida</h1>
+
+		<ThemeToggle />
+	</header>
+
+	<nav class="flex gap-2">
+		<a
+			class:list={[
+				"cursor-pointer hover:text-muted-foreground",
+				pathname === "/"
+					? "text-foreground hover:text-muted-foreground"
+					: "text-muted-foreground hover:text-foreground",
+			]}
+			href="/"
+		>
+			about
+		</a>
+
+		<a
+			class:list={[
+				"cursor-pointer",
+				pathname === "/projects"
+					? "text-foreground hover:text-muted-foreground"
+					: "text-muted-foreground hover:text-foreground",
+			]}
+			href="/projects"
+		>
+			projects
+		</a>
+	</nav>
+</header>

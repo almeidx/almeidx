@@ -1,0 +1,59 @@
+<button
+	aria-label="Toggle theme"
+	class="flex size-9 items-center justify-center rounded-md border border-border bg-transparent transition-colors hover:bg-muted"
+	id="theme-toggle"
+	type="button"
+>
+	<span class="sr-only">Toggle theme</span>
+
+	<svg
+		class="hidden size-4"
+		fill="none"
+		id="sun-icon"
+		stroke="currentColor"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+		stroke-width="2"
+		viewBox="0 0 24 24"
+		xmlns="http://www.w3.org/2000/svg"
+	>
+		<circle cx="12" cy="12" r="4"></circle>
+		<path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+	</svg>
+
+	<svg
+		class="hidden size-4"
+		fill="none"
+		id="moon-icon"
+		stroke="currentColor"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+		stroke-width="2"
+		viewBox="0 0 24 24"
+		xmlns="http://www.w3.org/2000/svg"
+	>
+		<path d="M12 3a6 6 0 009 9 9 9 0 11-9-9z"></path>
+	</svg>
+</button>
+
+<script>
+	function updateIcons() {
+		const isDark = document.documentElement.classList.contains("dark");
+		document.getElementById("sun-icon")!.classList.toggle("hidden", !isDark);
+		document.getElementById("moon-icon")!.classList.toggle("hidden", isDark);
+	}
+
+	function setup() {
+		const button = document.getElementById("theme-toggle")!;
+		button.addEventListener("click", () => {
+			const isDark = document.documentElement.classList.contains("dark");
+			document.documentElement.classList.toggle("dark", !isDark);
+			localStorage.setItem("theme", isDark ? "light" : "dark");
+			updateIcons();
+		});
+		updateIcons();
+	}
+
+	setup();
+	document.addEventListener("astro:after-swap", setup);
+</script>

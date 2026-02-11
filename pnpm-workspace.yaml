@@ -1,15 +1,8 @@
 minimumReleaseAge: 1440
 
-minimumReleaseAgeExclude:
-  - '@next/*'
-  - next
-  - react
-  - react-dom
-
 onlyBuiltDependencies:
-  - '@biomejs/biome'
+  - oxfmt
+  - oxlint
   - '@tailwindcss/oxide'
   - esbuild
-  - rclone.js
-  - sharp
   - workerd
