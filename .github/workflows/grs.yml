@@ -5,6 +5,10 @@ on:
     - cron: "0 3 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: update-readme-cards-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,8 +19,11 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      - name: Create profile directory
+        run: mkdir -p profile
+
       - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1
         with:
           card: stats
           options: username=${{ github.repository_owner }}&count_private=true&include_all_commits=true&show_icons=true&theme=dark&icon_color=fff&hide_border=true
@@ -24,7 +31,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: readme-tools/github-readme-stats-action@b4d2ef3b8051484b318d455163153b23a2b35fa2 # v1
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&theme=dark&hide_border=true&layout=compact&langs_count=6
@@ -36,5 +43,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
-          git commit -m "Update README cards" || exit 0
+          git commit -m "Update README cards [skip ci]" || exit 0
           git push
