@@ -17,6 +17,10 @@
 			"groupSlug": "all-non-major",
 			"matchUpdateTypes": ["patch", "minor"],
 			"schedule": ["* 5-9 * * *", "* * * * SAT,SUN"]
+		},
+		{
+			"matchManagers": ["github-actions"],
+			"pinDigests": true
 		}
 	],
 	"postUpdateOptions": ["pnpmDedupe"],
