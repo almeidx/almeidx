@@ -19,7 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
-          persist-credentials: false
+          # PAT is required to push to the protected main branch
+          token: ${{ secrets.PAT }}
 
       - name: Create profile directory
         run: mkdir -p profile
@@ -40,11 +41,10 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit and push cards
+      - name: Commit cards
         run: |
-          git config user.name "${{ vars.COMMITTER_NAME }}"
-          git config user.email "${{ vars.COMMITTER_EMAIL }}"
+          git config user.name "${{ github.repository_owner }}"
+          git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
           git add profile/*.svg
           git commit -m "Update README cards [skip ci]" || exit 0
-          git remote set-url origin "https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git"
           git push
