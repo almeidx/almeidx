@@ -13,14 +13,14 @@
 		"preview:cf": "astro build && wrangler dev"
 	},
 	"dependencies": {
-		"astro": "^5.5.5"
+		"astro": "^5.17.1"
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.9.6",
 		"@tailwindcss/postcss": "^4.1.18",
 		"@types/node": "^24.10.13",
-		"oxfmt": "^0.28.0",
-		"oxlint": "^1.43.0",
+		"oxfmt": "^0.31.0",
+		"oxlint": "^1.46.0",
 		"postcss": "^8.5.6",
 		"tailwindcss": "^4.1.18",
 		"typescript": "~5.9.3",
