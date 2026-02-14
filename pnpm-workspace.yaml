@@ -1,8 +1,9 @@
 minimumReleaseAge: 1440
 
 onlyBuiltDependencies:
-  - oxfmt
-  - oxlint
   - '@tailwindcss/oxide'
   - esbuild
+  - oxfmt
+  - oxlint
+  - sharp
   - workerd

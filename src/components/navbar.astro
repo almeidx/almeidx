@@ -27,7 +27,7 @@ const pathname = Astro.url.pathname;
 		<a
 			class:list={[
 				"cursor-pointer",
-				pathname === "/projects"
+				pathname.startsWith("/projects")
 					? "text-foreground hover:text-muted-foreground"
 					: "text-muted-foreground hover:text-foreground",
 			]}
