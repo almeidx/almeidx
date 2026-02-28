@@ -18,13 +18,13 @@
 	"devDependencies": {
 		"@astrojs/check": "^0.9.6",
 		"@tailwindcss/postcss": "^4.2.1",
-		"@types/node": "^24.10.14",
+		"@types/node": "^24.10.15",
 		"oxfmt": "^0.35.0",
 		"oxlint": "^1.50.0",
 		"postcss": "^8.5.6",
 		"tailwindcss": "^4.2.1",
 		"typescript": "~5.9.3",
-		"wrangler": "^4.68.1"
+		"wrangler": "^4.69.0"
 	},
 	"packageManager": "pnpm@10.30.3"
 }
