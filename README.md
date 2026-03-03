@@ -1,7 +1,6 @@
 ## Welcome to my GitHub profile! <img src="https://komarev.com/ghpvc/?username=almeidx" alt="" />
 
 <img width="50%" align="right" src="./profile/stats.svg">
-<img width="50%" align="right" src="./profile/top-langs.svg">
 
 Hi 👋, I'm a Software Engineer based in <img width="20" align="center" src="https://img.icons8.com/color/96/000000/portugal.png"/> **Portugal**.
 
