@@ -2,7 +2,8 @@
 	"compilerOptions": {
 		"paths": {
 			"@/*": ["./src/*"]
-		}
+		},
+		"types": ["node"]
 	},
 	"extends": "astro/tsconfigs/strict"
 }
