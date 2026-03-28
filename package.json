@@ -24,7 +24,7 @@
 		"postcss": "^8.5.8",
 		"tailwindcss": "^4.2.2",
 		"typescript": "~6.0.2",
-		"wrangler": "^4.77.0"
+		"wrangler": "^4.78.0"
 	},
 	"packageManager": "pnpm@10.33.0"
 }
