@@ -5,7 +5,6 @@
 		"suspicious": "error"
 	},
 	"rules": {
-		"no-svg-without-title": "off",
 		"typescript/triple-slash-reference": "off"
 	}
 }
