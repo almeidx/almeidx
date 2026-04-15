@@ -21,3 +21,4 @@ Hi 👋, I'm a Software Engineer based in <img width="20" align="center" src="ht
 - 💻 **[repl](https://github.com/almeidx/repl)** - A browser-based TypeScript/JavaScript REPL powered by WebContainers
 - 🔍 **[diff](https://github.com/almeidx/diff)** - Compare versions of npm packages and WordPress plugins with a visual diff viewer
 - 🧩 **[serialize](https://github.com/almeidx/serialize)** - A client-side tool for parsing, editing, and converting PHP serialized data
+- 🔪 **[fogdex](https://fogdex.almeidx.dev)** - A Dead by Daylight killer reference sheet with specs
