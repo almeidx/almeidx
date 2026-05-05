@@ -1,9 +1,7 @@
-minimumReleaseAge: 1440
-
-onlyBuiltDependencies:
-  - '@tailwindcss/oxide'
-  - esbuild
-  - oxfmt
-  - oxlint
-  - sharp
-  - workerd
+allowBuilds:
+  "@tailwindcss/oxide": true
+  esbuild: true
+  oxfmt: true
+  oxlint: true
+  sharp: true
+  workerd: true
