@@ -19,12 +19,12 @@
 		"@astrojs/check": "^0.9.9",
 		"@tailwindcss/postcss": "^4.2.4",
 		"@types/node": "^24.12.2",
-		"oxfmt": "^0.47.0",
-		"oxlint": "^1.62.0",
+		"oxfmt": "^0.48.0",
+		"oxlint": "^1.63.0",
 		"postcss": "^8.5.14",
 		"tailwindcss": "^4.2.4",
 		"typescript": "~6.0.3",
-		"wrangler": "^4.87.0"
+		"wrangler": "^4.88.0"
 	},
 	"packageManager": "pnpm@11.0.6"
 }
