@@ -13,7 +13,7 @@
 		"preview:cf": "astro build && wrangler dev"
 	},
 	"dependencies": {
-		"astro": "^6.3.3"
+		"astro": "^6.3.5"
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.9.9",
@@ -26,5 +26,5 @@
 		"typescript": "~6.0.3",
 		"wrangler": "^4.92.0"
 	},
-	"packageManager": "pnpm@11.1.2"
+	"packageManager": "pnpm@11.1.3"
 }
