@@ -21,10 +21,10 @@
 		"@types/node": "^24.12.4",
 		"oxfmt": "^0.51.0",
 		"oxlint": "^1.66.0",
-		"postcss": "^8.5.14",
+		"postcss": "^8.5.15",
 		"tailwindcss": "^4.3.0",
 		"typescript": "~6.0.3",
-		"wrangler": "^4.92.0"
+		"wrangler": "^4.93.0"
 	},
 	"packageManager": "pnpm@11.1.3"
 }
