@@ -1,7 +1,19 @@
 ---
 import ThemeToggle from "@/components/theme-toggle.astro";
 
-const pathname = Astro.url.pathname;
+function normalizePath(pathname: string) {
+	const path = pathname.replace(/\/+$/, "") || "/";
+
+	if (path === "/index" || path === "/index.html") {
+		return "/";
+	}
+
+	return path.replace(/\.html$/, "");
+}
+
+const pathname = normalizePath(Astro.url.pathname);
+const isAboutPage = pathname === "/";
+const isProjectsPage = pathname.startsWith("/projects");
 ---
 
 <header class="flex flex-col gap-1 py-8">
@@ -15,7 +27,7 @@ const pathname = Astro.url.pathname;
 		<a
 			class:list={[
 				"cursor-pointer hover:text-muted-foreground",
-				pathname === "/"
+				isAboutPage
 					? "text-foreground hover:text-muted-foreground"
 					: "text-muted-foreground hover:text-foreground",
 			]}
@@ -27,7 +39,7 @@ const pathname = Astro.url.pathname;
 		<a
 			class:list={[
 				"cursor-pointer",
-				pathname.startsWith("/projects")
+				isProjectsPage
 					? "text-foreground hover:text-muted-foreground"
 					: "text-muted-foreground hover:text-foreground",
 			]}
