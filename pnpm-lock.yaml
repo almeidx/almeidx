@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       astro:
-        specifier: ^6.4.7
+        specifier: ^6.4.8
         version: 6.4.8(@types/node@24.13.2)(jiti@2.7.0)(lightningcss@1.32.0)(rollup@4.61.1)(yaml@2.9.0)
     devDependencies:
       '@astrojs/check':
@@ -37,7 +37,7 @@ importers:
         specifier: ~6.0.3
         version: 6.0.3
       wrangler:
-        specifier: ^4.100.0
+        specifier: ^4.103.0
         version: 4.103.0
 
 packages:
