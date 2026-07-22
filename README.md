@@ -1,7 +1,5 @@
 ## Welcome to my GitHub profile! <img src="https://komarev.com/ghpvc/?username=almeidx" alt="" />
 
-<img width="50%" align="right" src="./profile/stats.svg">
-
 Hi 👋, I'm a Software Engineer based in <img width="20" align="center" src="https://img.icons8.com/color/96/000000/portugal.png"/> **Portugal**.
 
 🎓 I hold a Bachelor's degree in Computer Science and am currently pursuing a major in the same field.
