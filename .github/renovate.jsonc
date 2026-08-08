@@ -19,10 +19,6 @@
       "schedule": ["* 0-8 * * 6"],
     },
     {
-      "matchManagers": ["github-actions"],
-      "pinDigests": true,
-    },
-    {
       "enabled": true,
       "groupName": "Node.js runtime",
       "groupSlug": "node-js",
