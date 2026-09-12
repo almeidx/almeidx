@@ -25,5 +25,5 @@
 		"typescript": "~6.0.3",
 		"wrangler": "^4.131.0"
 	},
-	"packageManager": "pnpm@11.26.0"
+	"packageManager": "pnpm@12.4.1"
 }
