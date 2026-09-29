@@ -5,12 +5,5 @@
 		"not_found_handling": "404-page"
 	},
 	"compatibility_date": "2025-10-04",
-	"name": "almeidx",
-	"observability": {
-		"logs": {
-			"enabled": true,
-			"head_sampling_rate": 1,
-			"invocation_logs": true
-		}
-	}
+	"name": "almeidx"
 }
