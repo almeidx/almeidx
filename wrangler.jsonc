@@ -1,7 +1,8 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"assets": {
-		"directory": "dist"
+		"directory": "dist",
+		"not_found_handling": "404-page"
 	},
 	"compatibility_date": "2025-10-04",
 	"name": "almeidx",
