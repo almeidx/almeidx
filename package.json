@@ -6,9 +6,8 @@
 		"build": "astro build",
 		"build:typecheck": "astro check",
 		"dev": "astro dev",
-		"fmt": "oxfmt --write .",
-		"format": "pnpm run fmt",
-		"lint": "oxlint",
+		"fmt": "oxlint --fix && oxfmt",
+		"lint": "oxlint && oxfmt --check",
 		"preview": "astro preview",
 		"preview:cf": "astro build && wrangler dev"
 	},
@@ -20,7 +19,8 @@
 		"@tailwindcss/vite": "^4.3.3",
 		"@types/node": "^24.19.1",
 		"oxfmt": "^0.71.0",
-		"oxlint": "^1.86.0",
+		"oxlint": "^1.87.0",
+		"oxlint-tsgolint": "^7.0.2003",
 		"tailwindcss": "^4.3.3",
 		"typescript": "~6.0.3",
 		"wrangler": "^4.146.0"

@@ -1,8 +1,11 @@
 {
 	"$schema": "./node_modules/oxlint/configuration_schema.json",
+	"options": {
+		"typeAware": true
+	},
+	"plugins": ["eslint", "typescript", "unicorn", "oxc"],
 	"categories": {
-		"correctness": "error",
-		"suspicious": "error"
+		"correctness": "error"
 	},
 	"rules": {
 		"typescript/triple-slash-reference": "off"
