@@ -16,12 +16,12 @@ const isAboutPage = pathname === "/";
 const isProjectsPage = pathname.startsWith("/projects");
 ---
 
-<header class="flex flex-col gap-1 py-8">
-	<header class="flex items-center justify-between py-4">
+<header class="sticky top-0 z-10 flex flex-col gap-1 bg-background py-8" transition:name="navbar" transition:animate="none">
+	<div class="flex items-center justify-between py-4">
 		<h1 class="font-bold text-4xl">Almeida</h1>
 
 		<ThemeToggle />
-	</header>
+	</div>
 
 	<nav class="flex gap-2">
 		<a
