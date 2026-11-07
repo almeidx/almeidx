@@ -12,18 +12,18 @@
 		"preview:cf": "astro build && wrangler dev"
 	},
 	"dependencies": {
-		"astro": "^7.4.4"
+		"astro": "^7.4.7"
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.9.12",
-		"@tailwindcss/vite": "^4.3.3",
+		"@tailwindcss/vite": "^4.3.4",
 		"@types/node": "^26.6.6",
-		"oxfmt": "^0.75.0",
-		"oxlint": "^1.90.0",
-		"oxlint-tsgolint": "^7.0.2005",
-		"tailwindcss": "^4.3.3",
+		"oxfmt": "^0.76.0",
+		"oxlint": "^1.91.0",
+		"oxlint-tsgolint": "^7.0.2006",
+		"tailwindcss": "^4.3.4",
 		"typescript": "~6.0.3",
-		"wrangler": "^4.156.0"
+		"wrangler": "^4.158.0"
 	},
-	"packageManager": "pnpm@12.16.1"
+	"packageManager": "pnpm@12.18.0"
 }
