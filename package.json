@@ -17,13 +17,13 @@
 	"devDependencies": {
 		"@astrojs/check": "^0.9.12",
 		"@tailwindcss/vite": "^4.3.5",
-		"@types/node": "^26.6.6",
-		"oxfmt": "^0.79.0",
-		"oxlint": "^1.94.0",
-		"oxlint-tsgolint": "^7.0.2007",
+		"@types/node": "^26.6.11",
+		"oxfmt": "^0.80.0",
+		"oxlint": "^1.95.0",
+		"oxlint-tsgolint": "^7.0.2009",
 		"tailwindcss": "^4.3.5",
 		"typescript": "~6.0.3",
-		"wrangler": "^4.165.0"
+		"wrangler": "^4.168.0"
 	},
-	"packageManager": "pnpm@12.21.0"
+	"packageManager": "pnpm@12.23.0"
 }
